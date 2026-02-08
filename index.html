@@ -226,7 +226,7 @@ button {
           fill="#ff7aa2"/>
   </svg>
 
-  <h1>Ger, will you please be my valentine?</h1>
+  <h1>Ger, will you please be my Valentine?</h1>
 
   <section class="button-zone" id="zone">
     <button id="yesBtn">Yes 💖</button>
@@ -317,6 +317,7 @@ zone.addEventListener("pointermove",e=>{
 
 /* YES CLICK */
 yesBtn.addEventListener("click",()=>{
+  document.querySelector("h1").style.display = "none";
   zone.style.display="none";
   hint.style.display="none";
   result.style.display="block";
